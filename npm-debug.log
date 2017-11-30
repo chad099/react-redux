@@ -1,0 +1,48 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/home/local/MPROGA1/chandra.shekhar/.nvm/versions/node/v6.9.5/bin/node',
+1 verbose cli   '/home/local/MPROGA1/chandra.shekhar/.nvm/versions/node/v6.9.5/bin/npm',
+1 verbose cli   'run-script',
+1 verbose cli   'lint:watch' ]
+2 info using npm@3.10.10
+3 info using node@v6.9.5
+4 verbose run-script [ 'prelint:watch', 'lint:watch', 'postlint:watch' ]
+5 info lifecycle Protabit@1.0.0~prelint:watch: Protabit@1.0.0
+6 silly lifecycle Protabit@1.0.0~prelint:watch: no script for prelint:watch, continuing
+7 info lifecycle Protabit@1.0.0~lint:watch: Protabit@1.0.0
+8 verbose lifecycle Protabit@1.0.0~lint:watch: unsafe-perm in lifecycle true
+9 verbose lifecycle Protabit@1.0.0~lint:watch: PATH: /home/local/MPROGA1/chandra.shekhar/.nvm/versions/node/v6.9.5/lib/node_modules/npm/bin/node-gyp-bin:/home/local/MPROGA1/chandra.shekhar/protabit-react/node_modules/.bin:/home/local/MPROGA1/chandra.shekhar/.nvm/versions/node/v6.9.5/lib/node_modules/npm/bin/node-gyp-bin:/home/local/MPROGA1/chandra.shekhar/protabit-react/node_modules/.bin:/home/local/MPROGA1/chandra.shekhar/.nvm/versions/node/v6.9.5/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games
+10 verbose lifecycle Protabit@1.0.0~lint:watch: CWD: /home/local/MPROGA1/chandra.shekhar/protabit-react
+11 silly lifecycle Protabit@1.0.0~lint:watch: Args: [ '-c', 'npm run lint -- --watch' ]
+12 silly lifecycle Protabit@1.0.0~lint:watch: Returned: code: 1  signal: null
+13 info lifecycle Protabit@1.0.0~lint:watch: Failed to exec lint:watch script
+14 verbose stack Error: Protabit@1.0.0 lint:watch: `npm run lint -- --watch`
+14 verbose stack Exit status 1
+14 verbose stack     at EventEmitter.<anonymous> (/home/local/MPROGA1/chandra.shekhar/.nvm/versions/node/v6.9.5/lib/node_modules/npm/lib/utils/lifecycle.js:255:16)
+14 verbose stack     at emitTwo (events.js:106:13)
+14 verbose stack     at EventEmitter.emit (events.js:191:7)
+14 verbose stack     at ChildProcess.<anonymous> (/home/local/MPROGA1/chandra.shekhar/.nvm/versions/node/v6.9.5/lib/node_modules/npm/lib/utils/spawn.js:40:14)
+14 verbose stack     at emitTwo (events.js:106:13)
+14 verbose stack     at ChildProcess.emit (events.js:191:7)
+14 verbose stack     at maybeClose (internal/child_process.js:877:16)
+14 verbose stack     at Process.ChildProcess._handle.onexit (internal/child_process.js:226:5)
+15 verbose pkgid Protabit@1.0.0
+16 verbose cwd /home/local/MPROGA1/chandra.shekhar/protabit-react
+17 error Linux 3.13.0-24-generic
+18 error argv "/home/local/MPROGA1/chandra.shekhar/.nvm/versions/node/v6.9.5/bin/node" "/home/local/MPROGA1/chandra.shekhar/.nvm/versions/node/v6.9.5/bin/npm" "run-script" "lint:watch"
+19 error node v6.9.5
+20 error npm  v3.10.10
+21 error code ELIFECYCLE
+22 error Protabit@1.0.0 lint:watch: `npm run lint -- --watch`
+22 error Exit status 1
+23 error Failed at the Protabit@1.0.0 lint:watch script 'npm run lint -- --watch'.
+23 error Make sure you have the latest version of node.js and npm installed.
+23 error If you do, this is most likely a problem with the Protabit package,
+23 error not with npm itself.
+23 error Tell the author that this fails on your system:
+23 error     npm run lint -- --watch
+23 error You can get information on how to open an issue for this project with:
+23 error     npm bugs Protabit
+23 error Or if that isn't available, you can get their info via:
+23 error     npm owner ls Protabit
+23 error There is likely additional logging output above.
+24 verbose exit [ 1, true ]

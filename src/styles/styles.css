@@ -1,0 +1,90 @@
+.error {
+  color: red;
+}
+
+.react-datepicker-wrapper, .react-datepicker__input-container {
+  width: 100%;
+}
+
+.card-min-100 {
+  height: 100px;
+}
+
+.bg-gray {
+  background: gray;
+}
+
+.bg-menu {
+  background: #F2F2F2;
+}
+
+.content-left {
+  border: 1px solid #F2F2F2;
+}
+
+.menu-cl a {
+  color: white;
+  text-decoration: none;
+}
+
+.menu-cl button {
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 0;
+}
+
+.menu-cl {
+  border-bottom: 1px solid gainsboro;
+}
+
+.LeftMenu .card {
+  font-size: 12px;
+}
+
+.graph {
+  width: 410px;
+}
+
+.grayBorder {
+  height: 40px;
+  background: #ACACAC;
+  color: white;
+}
+
+.chart-compare {
+  background: #ACACAC;
+  color: white;
+  height: 40px;
+  text-align: center;
+}
+
+.border-gray {
+  border: 1px solid #F2F2F2;
+}
+.custom-select {
+  width: 145px;
+  height: 28px;
+}
+
+.chart-render-option .custom-select {
+  height: 21px;
+}
+
+.chart-render-option .btn-group-sm>.btn, .btn-sm {
+  height: 24px;
+  font-size: 0.7rem;
+  width: 109px;
+}
+.tweets .card {
+  width: 100%;
+}
+
+.tweets .card img {
+  height: 45px;
+}
+
+.export-btn {
+  margin-left: 74% !important;
+}
+.has-error {
+  color: red;
+}

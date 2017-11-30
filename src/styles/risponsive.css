@@ -1,0 +1,111 @@
+
+@media (min-width: 992px) {
+  .modal-lg {
+      width: 1010px;
+  }  
+}
+
+
+@media screen and (max-width: 1466px) {
+    .polygon {
+        min-height: 335px;
+        min-width: 220px;
+    }
+    .polygon h3 {
+        font-size: 16px;
+    }
+    .polygon p {
+        font-size: 14px;
+    }
+}
+
+@media screen and (max-width: 1350px) {
+    .polygon {
+        min-height: 322px;
+        min-width: 206px;
+    }
+}
+
+@media screen and (max-width: 1300px) {
+    .polygon {
+        min-height: 328px;
+        min-width: 210px;
+    }
+}
+
+@media screen and (max-width: 1285px) {
+    .polygon {
+        min-height: 317px;
+        min-width: 187px;
+    }
+    .polygon h3 {
+        font-size: 15px;
+    }
+    .polygon p {
+        font-size: 13px;
+    }
+}
+
+@media screen and (max-width: 1224px) {
+    .polygon {
+        min-height: 314px;
+        min-width: 176px;
+    }
+    .polygon h3 {
+        font-size: 14px;
+    }
+    .polygon p {
+        font-size: 12px;
+    }
+}
+@media screen and (max-width: 1110px) {
+    .polygon {
+    min-height: 302px;
+    min-width: 164px;
+}
+
+}
+@media screen and (max-width: 1024px) {
+    .welcome h1 {
+        font-size: 38px;
+        font-weight: 800;
+        margin-bottom: 16px;
+    }
+    .text-color-p {
+        color: #676767;
+        font-size: 28px;
+    }
+    .polygon {
+        min-height: 294px;
+        min-width: 150px;
+    }
+    .polygon h3 {
+        font-size: 14px;
+        margin-top: 10px;
+    }
+    .polygon p {
+        font-size: 11px;
+    }
+    .dash-icon {
+        margin-top: 56px;
+        margin-bottom: 24px;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .dropdown-menu > li {
+        display: block;
+    }
+}
+
+@media (max-width: 768px) {
+    #sidebar {
+        margin-left: -250px;
+    }
+    #sidebar.active {
+        margin-left: 0;
+    }
+    #sidebarCollapse span {
+        display: none;
+    }
+}
